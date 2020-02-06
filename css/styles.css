@@ -1,0 +1,30 @@
+.jumbotron{
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to left, #f9ed69, #ec7373, #f38181);
+}
+
+h1,h2,h3{
+    font-family: "Lobster", cursive;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+footer{
+    padding: 30px;
+    background-image: linear-gradient(to right, #f9ed69, #ec7373, #f38181);
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge ;
+    min-height: 100px;
+}
+
+nav{
+    color:black;
+}
+.navbar{
+    background-color: #901cad;
+}
