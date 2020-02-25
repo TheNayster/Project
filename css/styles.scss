@@ -4,6 +4,8 @@ $color-pale: #cec8ff;
 $color-mid: #901cad;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0,0,0,0.5);
+$Snow:#f5f5f5;
+
 
 $color-teal: #17A2B8;
 
@@ -38,6 +40,7 @@ header {
     padding: 30px;
     background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
     color: white;
+    min-height: 1000px;
 }
 
 .row-content {
@@ -47,7 +50,7 @@ header {
 }
 
 .navbar-dark {
-    background-color: $color-mid;
+    background-color: $Snow;
 }
 
 .carousel-caption {
@@ -77,4 +80,15 @@ header {
     background-color: $color-mid;
     color: white;
     }
+}
+
+.parallax{
+    background-image: url("/img/BG.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+
+img{
+    border-radius: 50%;
 }

@@ -18,7 +18,8 @@ header h2 {
   margin: 0;
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-  color: white; }
+  color: white;
+  min-height: 1000px; }
 
 .row-content {
   padding: 50px 0;
@@ -26,7 +27,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar-dark {
-  background-color: #901cad; }
+  background-color: #f5f5f5; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -46,3 +47,12 @@ header h2 {
 #loginButton .modal-header {
   background-color: #901cad;
   color: white; }
+
+.parallax {
+  background-image: url("/img/BG.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px; }
+
+img {
+  border-radius: 50%; }
