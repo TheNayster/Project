@@ -54,5 +54,23 @@ header h2 {
   background-repeat: no-repeat;
   background-size: 2000px 1000px; }
 
-img {
+#cicleimg {
   border-radius: 50%; }
+
+#Galleryrow1 {
+  width: 300px;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#Galleryrow2 {
+  width: 300px;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#Galleryrow3 {
+  width: 300px;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
