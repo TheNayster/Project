@@ -11,24 +11,26 @@ $color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
+$text-font: "Monoton", ;
+$blackops-font: "Black ops one", ;
+
+#text{
+    font-family: $text-font;
+    font-size: 150px;
+}
+#text2{
+    font-family: $blackops-font;
+}
+
 
 body {
     font-family: $body-font;
 }
 
-h1, h2, h3 {
+ h1,h2, h3 {
     font-family: $header-font;
 }
 
-h2 {
-    color: $color-primary;
-}
-
-header {
-    h2 {
-    color: $color-pale;
-    }
-}
 
 .site-footer {
     background-image: linear-gradient($color-pale, white);
@@ -82,34 +84,39 @@ header {
     }
 }
 
-.parallax{
+#hobby{
     background-image: url("/img/BG.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
 }
 
+#me{
+   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+.jumbotronME {
+    margin: 0;
+    padding: 30px;
+    min-height: 370px;
+}
+.jumbotronHobbies {
+    margin: 0;
+    padding: 30px;
+    min-height: 1000px;
+}
+
+
 #cicleimg{
     border-radius: 50%;
 }
 
-#Galleryrow1{
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.Gallery{
+    column-count: 3;
+    column-width: 33%;
 }
 
-#Galleryrow2{
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-#Galleryrow3{
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+

@@ -1,14 +1,15 @@
+#text {
+  font-family: "Monoton";
+  font-size: 150px; }
+
+#text2 {
+  font-family: "Black ops one"; }
+
 body {
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
-
-h2 {
-  color: #3046c5; }
-
-header h2 {
-  color: #cec8ff; }
 
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
@@ -48,29 +49,30 @@ header h2 {
   background-color: #901cad;
   color: white; }
 
-.parallax {
+#hobby {
   background-image: url("/img/BG.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 2000px 1000px; }
 
+#me {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px; }
+
+.jumbotronME {
+  margin: 0;
+  padding: 30px;
+  min-height: 370px; }
+
+.jumbotronHobbies {
+  margin: 0;
+  padding: 30px;
+  min-height: 1000px; }
+
 #cicleimg {
   border-radius: 50%; }
 
-#Galleryrow1 {
-  width: 300px;
-  height: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-#Galleryrow2 {
-  width: 300px;
-  height: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-#Galleryrow3 {
-  width: 300px;
-  height: 300px;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+.Gallery {
+  column-count: 3;
+  column-width: 33%; }
