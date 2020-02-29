@@ -2,7 +2,7 @@
   "name": "nucampsite",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "Hobbies.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
@@ -12,7 +12,7 @@
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin Pets.html -d dist --htmlmin -o dist/Pets.html && usemin Eddy.html -d dist --htmlmin -o dist/Eddy.html && usemin Hobbies.html -d dist --htmlmin -o dist/Hobbies.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },

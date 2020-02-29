@@ -90,6 +90,10 @@ body {
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
 }
+#cardimg{
+    height: 400px;
+    width: 600px;
+}
 
 #me{
    
@@ -117,6 +121,44 @@ body {
     column-count: 3;
     column-width: 33%;
 }
+#hbackground{
+    background-image: linear-gradient(to right, #eeeeee, #52616b, #f5f5f5);
+}
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
 
 
+// Meeps code
+
+#obiwan{
+    background-color: black;
+}
+
+#pic {
+   display:flex;
+   justify-content: center;
+   height: 500px;
+   width: 375px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5{
+    font-family: 'Lato', ;
+}
+
+#scheduleSession{
+    .modal-header{
+        background-color:$color-coral;
+        color: white;
+    }
+}
+#portraitSession{
+    .modal-header{
+        background-color:$color-purp;
+        color: white;
+    }
+}
 
